@@ -1,0 +1,121 @@
+body
+{
+	margin-top:220px;
+	margin-left:650px;
+}
+
+.foto {
+    position: absolute;
+    top: 90px;
+    left: 49%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: auto;
+}
+
+/* End Body */
+
+/* Start Input Fields */
+input[name=email]
+{
+	width:355px;
+	height:40px;	
+	font-family:Arial, sans-serif;
+	border:1px solid #9DA3A6;
+	border-radius:4px;
+	padding-left:10px;		
+}
+input[name=pass]
+{
+	width:355px;
+	height:40px;
+	margin-top:10px;
+	font-family:Arial, sans-serif;
+	border:1px solid #9DA3A6;
+	border-radius:4px;
+	padding-left:10px;					
+}
+/* End Input Fields */
+
+/* Start Link */
+a 
+{
+	color:#2886C5;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	position:absolute;
+	top:420px;
+	left:740px;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+/* End Link */
+
+/* Start Log In */
+input[class=log]
+{
+	width:368px;
+	height:44px;
+	border:1px solid #0171BB;
+	border-radius:4px;	
+	background-color:#0171BB;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial, sans-serif;
+	margin-top:30px;
+	margin-bottom:20px;
+		
+}
+input[class=log]:hover
+{
+	background-color:#005EA6;
+}
+/* End Log In */
+
+.before
+{
+	width:170px;
+	height:1px;
+	background-color:#B6BABC;
+	position:absolute;
+	top:470px;
+	left:650px;	
+
+}
+p
+{
+	font-size:18px;
+	color:#757B80;
+	position:absolute;
+	top:440px;
+	left:827px;
+}
+.after
+{
+	width:170px;
+	height:1px;
+	background-color:#B6BABC;
+	position:absolute;
+	top:470px;
+	left:850px;		
+}
+
+/* Start Sign Up */
+input[class=sign]
+{
+	width:368px;
+	height:44px;
+	border:1px solid #E3E6EB;
+	border-radius:4px;		
+	background-color:#E3E6EB;
+	color:#2C2E2F;
+	font-weight:bold;
+	font-family:Arial, sans-serif;	
+}
+input[class=sign]:hover
+{
+	background-color:#D2DBE1;
+}
+/* End Sign Up */
